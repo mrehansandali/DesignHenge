@@ -78,18 +78,18 @@
   background-color: #fff;
   height: 350px;
   position: relative;
-  background-image: url("../assets//Untitled-2mojihh.png");
-  background-position: center;
+  background-image: url("../assets//Untitled-2mojihh.png"), url("../assets/Untitled-2.jpg");
+  background-position: center, right bottom;
   background-repeat: no-repeat;
-  background-size: calc(40%);
+  background-size: calc(40%), calc(40%);
 }
 
-.herosection2 .right2 .rightimg2 {
+/* .herosection2 .right2 .rightimg2 {
   position: absolute;
   width: 14rem;
   bottom: 0;
   right: 0;
-}
+} */
 .herosection2 .right2 button {
   color: #fff;
   background-color: #7ac119;
@@ -180,10 +180,15 @@
   .herosection2 .right2 button {
     font-size: 15px;
     padding: 10px 20px;
-    margin-bottom: 100px;
   }
 
   .herosection2 .left2 h3 {
     font-size: 30px;
+  }
+
+  .herosection .left button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
   }
 }

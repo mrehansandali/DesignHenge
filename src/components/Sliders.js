@@ -24,8 +24,8 @@ const Sliders = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          arrows: false,
+          slidesToShow: 1,
+          arrows: true,
           autoplay: true,
           autoplaySpeed: 2000,
         },
@@ -40,12 +40,12 @@ const Sliders = () => {
         <div className="slider">
           <Slider {...settings}>
             <div className="sliderontent">
-              <img src={b1} alt="" />
+              <img src={b3} alt="" />
               <h5>Extract</h5>
               <h4>Liquid</h4>
             </div>
             <div className="sliderontent">
-              <img src={b2} alt="" />
+              <img src={b3} alt="" />
               <h5>Extract</h5>
               <h4>Capsules</h4>
             </div>
@@ -55,7 +55,7 @@ const Sliders = () => {
               <h4>Powder</h4>
             </div>
             <div className="sliderontent">
-              <img src={b4} alt="" />
+              <img src={b3} alt="" />
               <h5>Extract</h5>
               <h4>Tablets</h4>
             </div>

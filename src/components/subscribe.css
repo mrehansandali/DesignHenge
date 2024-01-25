@@ -1,0 +1,76 @@
+.subscribesection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/home-banner5.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.subscribesection h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.subscribesection h2 span{
+    font-weight: 600;
+}
+
+.MRSubscribeForm{
+    width: 50%;
+    position: relative;
+}
+
+.MRSubscribeForm .search {
+    height: 50px;
+    font-size: 15px;
+}
+
+.MRSubscribeForm .subscribe-btn {
+    border: 0;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin: 4px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #7ac119;
+    height: 42px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media(max-width: 768px) {
+    .subscribesection{
+        height: 200px;
+    }
+
+    .subscribesection h2{
+        font-size: 25px;
+    }
+
+    .MRSubscribeForm{
+        width: 80%;
+    }
+
+    .MRSubscribeForm .search {
+        font-size: 10px;
+        height: 40px;
+    }
+
+    .MRSubscribeForm .subscribe-btn {
+        font-size: 10px;
+        height: 32px;
+    }
+}

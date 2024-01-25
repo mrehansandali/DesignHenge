@@ -1,8 +1,13 @@
 import React from "react";
 import heroimg from "../assets/banner-home.png";
-import right2img from "../assets/Untitled-2.jpg";
+// import right2img from "../assets/Untitled-2.jpg";
 import "./hero.css";
-import Sliders from "./Slider";
+import Sliders from "./Sliders";
+import WhyUs from "./WhyUs";
+import About from "./About";
+import Shop from "./Shop";
+import Testimonial from "./Testimonial";
+import Subscribe from "./Subscribe";
 
 const Hero = () => {
   return (
@@ -50,13 +55,18 @@ const Hero = () => {
                   quas repellendus et doloribus?
                 </p>
                 <button>Discover More</button>
-                <img className="rightimg2" src={right2img} alt="" />
+                {/* <img className="rightimg2" src={right2img} alt="" /> */}
               </div>
             </div>
           </div>
         </section>
 
         <Sliders />
+        <About/>
+        <Shop/>
+        <WhyUs/>
+        <Testimonial/>
+        <Subscribe/>
       </main>
     </>
   );

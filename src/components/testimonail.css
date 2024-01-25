@@ -1,0 +1,33 @@
+.testimonialsection .sliderontent img {
+    width: 7%;
+    border-radius: 50%;
+    border: 3px solid #7ac119;
+}
+
+.testimonialsection .sliderontent h4 {
+    font-weight: 600;
+}
+
+.testimonialsection .sliderontent p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+}
+
+.double-quote{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: #3e8e07;
+}
+
+@media (max-width:768px){
+    .testimonialsection .sliderontent img {
+        width: 30%;
+    }
+
+    .testimonialsection .sliderontent {
+        height: auto !important;
+    }
+}

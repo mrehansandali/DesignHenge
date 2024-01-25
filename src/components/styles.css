@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -114,6 +114,37 @@
 }
 
 
+
+@media (max-width: 990px) {
+  .navbar {
+    position: absolute;
+    top: 55px;
+    left: 5px;
+    background-color: #f2f9e7;
+  }
+
+  .navbar .container {
+    padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+
+  .navbar-toggler {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .navbar-toggler span {
+    width: 25px;
+    height: 25px;
+    margin-left: -8px;
+  }
+}
+
+
+
+
+
+
 @media (max-width: 768px) {
   .MRcontainer {
     flex-direction: column;
@@ -126,9 +157,7 @@
   .banner {
     font-size: 13px;
   }
-  .navbar {
-    display: none;
-  }
+  
 
   .MRsearchbar {
     width: 70%;
